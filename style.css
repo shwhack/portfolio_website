@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  background: #013460;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+.navbar ul li a:hover {
+  color: #013460;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.content {
+  transform: translateY(75%);
+  text-align: center;
+  color: black;
+  margin: auto;
+  width: 50%;
+}
+
+.content h1 {
+  font-size: 35px;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  margin-bottom: 100px;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+
+.green {
+  background-color: darkolivegreen;
+  height: 80vh;
+  width: 80vw;
+  z-index: 1;
+  position: relative;
+  left: 5vw;
+}
+
+.beige {
+  background-color: beige;
+  height: 80vh;
+  width: 80vw;
+  top: 115vh;
+  left: 15vw;
+  vertical-align: bottom;
+  position: absolute;
+  z-index: 0;
+}
+
+footer {
+  height: 10vh;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.list-inline-item {
+  list-style-type: none;
+}
+
+ul.list-inline-item li {
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin: 0px 5px 0px 5px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+ul.list-inline-item li:hover {
+  background-color: rgb(255, 187, 42);
+  cursor: pointer;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+img.kaggle {
+  filter: grayscale(1) contrast(100) brightness(1);
+}
+
