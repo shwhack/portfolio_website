@@ -3,7 +3,7 @@
 }
 
 :root {
-  --button-text-color: hsl(240, 100%, 68%);
+  --button-text-color: hsl(123, 39%, 62%);
   --header-height: 8vh;
   --footer-height: 8vh;
   --test-border: 2px solid red;
@@ -38,14 +38,14 @@
 .navbar ul li::after {
   content: '';
   height: 3px;
-  background: #013460;
+  background: hsl(123, 39%, 62%);
   position: absolute;
   left: 0;
   bottom: -5px;
 }
 
 .navbar ul li a:hover {
-  color: #013460;
+  color: hsl(123, 39%, 62%);
 }
 
 .navbar ul li:hover::after {
