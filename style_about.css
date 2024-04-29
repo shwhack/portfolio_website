@@ -1,42 +1,46 @@
+* {
+  font-family: 'Satoshi', sans-serif;
+}
+
 .banner {
-    /* display: grid; */
-    width: 100%;
-    height: var(--header-height);
-  }
+  /* display: grid; */
+  width: 100%;
+  height: var(--header-height);
+}
   
-  .navbar {
-    height: 100%;
-    display: flex;
-    justify-content: right;
-  }
+.navbar {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+}
   
-  .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-  }
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
   
-  .navbar ul li a {
-    text-decoration: none;
-    color: black;
-    text-transform: capitalize;
-    font-weight: bold;
-  }
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
   
-  .navbar ul li::after {
-    content: '';
-    height: 3px;
-    background: #013460;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-  }
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  background: #013460;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
   
-  .navbar ul li a:hover {
-    color: #013460;
-  }
+.navbar ul li a:hover {
+  color: #013460;
+}
   
-  .navbar ul li:hover::after {
-    width: 100%;
-  }
+.navbar ul li:hover::after {
+  width: 100%;
+}
