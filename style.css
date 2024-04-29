@@ -78,26 +78,6 @@
   display: block;
 }
 
-.green {
-  background-color: darkolivegreen;
-  height: 80vh;
-  width: 80vw;
-  z-index: 1;
-  position: relative;
-  left: 5vw;
-}
-
-.beige {
-  background-color: beige;
-  height: 80vh;
-  width: 80vw;
-  top: 115vh;
-  left: 15vw;
-  vertical-align: bottom;
-  position: absolute;
-  z-index: 0;
-}
-
 footer {
   height: 10vh;
 }
@@ -114,16 +94,16 @@ ul.list-inline-item {
 }
 
 ul.list-inline-item li {
-    float: right;
-    height: 40px;
-    width: 40px;
-    margin: 0px 5px 0px 5px;
-    background-color: black;
-    border-radius: 20px;
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin: 0px 5px 0px 5px;
+  background-color: black;
+  border-radius: 20px;
 }
 
 ul.list-inline-item li:hover {
-  background-color: rgb(255, 187, 42);
+  background-color: hsl(187, 100%, 74%);
   cursor: pointer;
 }
 
