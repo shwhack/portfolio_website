@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901&display=swap" rel="stylesheet">
   <title>Zachary Sopher | Resume</title>
   <link rel="stylesheet" href="/styles/style_resume.css">
+  <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body>
@@ -11,10 +13,15 @@
   <div class="banner">
     <div class="navbar">
       <ul>
-        <li><a href="./about.html">About Me</a></li>
-        <li><a href="./resume.html">Resume</a></li>
-        <li><a href="./projects.html">Projects</a></li>
-        <li><a href="https://www.datascienceportfol.io/zacharysopher" target="_blank">Portfolio</a></li>
+        <div class="left">
+          <img onclick="location.href = './index.html';" src="home.png" class="home">
+        </div>
+        <div class="right">
+          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./resume.html">Resume</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="https://www.datascienceportfol.io/zacharysopher" target="_blank">Portfolio</a></li>
+        </div>
       </ul>
     </div>
   </div>
@@ -22,6 +29,8 @@
 <div class="resume">
   <embed src="resume.pdf" height="100%" width="100%">
 </div>
+
+<div class="warning">This webpage is currently under development.</div>
 
 </body>
 

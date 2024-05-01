@@ -1,5 +1,8 @@
 * {
   font-family: 'Satoshi', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8ff;
 }
 
 :root {
@@ -10,15 +13,36 @@
 }
 
 .banner {
-  /* display: grid; */
+  position: fixed;
+  top: 10px;
   width: 100%;
-  height: var(--header-height);
+  height: 30px;
+}
+
+.home {
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  height: 25px;
+  width: 25px;
 }
 
 .navbar {
   height: 100%;
-  display: flex;
-  justify-content: right;
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
+.left {
+  width: 25px;
+  height: 25px;
+}
+
+.right {
+  position: fixed;
+  right: 5px;
+  top: 15px;
 }
 
 .navbar ul li {
@@ -62,7 +86,7 @@ ALL GOOD BELOW
   z-index: 1;
 } */
 
-.content {
+.container {
   transform: translate(60%, 35%);
   text-align: center;
   color: black;
@@ -72,13 +96,13 @@ ALL GOOD BELOW
   /* border: var(--test-border); */
 }
 
-.content h1 {
+.container h1 {
   font-size: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-.content p {
+.container p {
   height: 300px;
   margin: 20px auto;
   font-weight: 300;
@@ -92,7 +116,7 @@ ALL GOOD BELOW
 
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   right: 0;
 }
@@ -133,4 +157,14 @@ ul.list-inline-item li:hover {
 
 img:hover {
   cursor: pointer;
+}
+
+.warning {
+  position: fixed;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  bottom: 0px;
+  width: 100%;
+  background-color: red;
 }
